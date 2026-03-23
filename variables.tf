@@ -16,7 +16,7 @@ variable "environment" {
 variable "region" {
   description = "AWS region where KMS resources are managed"
   type        = string
-  default     = "ap-south-1"
+  # default     = "ap-south-1"
 }
 
 variable "create" {
